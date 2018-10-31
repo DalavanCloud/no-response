@@ -1,10 +1,10 @@
 {
-  "name": "probot-no-response",
+  "name": "probot-no-response-milestones",
   "version": "1.0.0",
   "description": "a GitHub Integration that closes issues where the author hasn't responded to a request for more information",
-  "author": "Lee Dohm",
+  "author": "Originally by Lee Dohm, additions by Mike Taylor",
   "license": "ISC",
-  "repository": "https://github.com/probot/no-response",
+  "repository": "https://github.com/miketaylr/no-response",
   "scripts": {
     "fix": "standard --fix",
     "dev": "nodemon",
