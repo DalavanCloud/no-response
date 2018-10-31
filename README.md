@@ -34,7 +34,7 @@ It will:
 ## Usage
 
 1. **[Configure the GitHub App](https://github.com/apps/no-response)**
-2. Create `.github/no-response.yml`
+2. Create `.github/no-response-milestones.yml`
 
 A `.github/no-response.yml` file is required to enable the app. The file can be empty, or it can override any of these default settings:
 

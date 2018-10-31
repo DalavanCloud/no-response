@@ -8,4 +8,4 @@ This plugin requires these **Permissions & events** for the GitHub Integration:
   - [x] Check the box for **Issue comment** events
   - [x] Check the box for **Issues** events
 - Single File - **Read-only**
-  - Path: `.github/no-response.yml`
+  - Path: `.github/no-response-milestones.yml`

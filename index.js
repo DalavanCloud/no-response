@@ -11,7 +11,7 @@ module.exports = async robot => {
   robot.on('issue_comment', unmark)
 
   async function sweep (context) {
-    const config = await context.config(`no-response.yml`)
+    const config = await context.config(`no-response-milestones.yml`)
 
     if (config) {
       const configWithDefaults = Object.assign({}, require('./lib/defaults'), config)
