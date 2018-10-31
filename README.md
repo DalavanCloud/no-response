@@ -44,7 +44,10 @@ A `.github/no-response.yml` file is required to enable the app. The file can be 
 # Number of days of inactivity before an Issue is closed for lack of response
 daysUntilClose: 14
 # Label requiring a response
-responseRequiredLabel: more-information-needed
+responseRequiredLabel: status-needsinfo
+# Milestone to move stale issues
+staleMilestone: 7
+reopenedMilestone: 1
 # Comment to post when closing an Issue for lack of response. Set to `false` to disable
 closeComment: >
   This issue has been automatically closed because there has been no response
